@@ -43,4 +43,4 @@ yarn.lock
 *.map
 .npmignore
 ts/
-!test/
+!test/**/*.*
