@@ -141,6 +141,13 @@ export default class MongoStore {
         }
 
         this.store.ready((err, db) => {
+            const update = (data) => {
+                db.collection(this.store.coll).update(query, data, options, (err, data) => {
+                    if (err) return fn(err)
+                    if (!data) return fn(null, null)
+                    fn(null, val)
+                })
+            }
             if (err) return fn(err)
             if (!this.store.compression) {
                 update(data)
@@ -150,13 +157,7 @@ export default class MongoStore {
                     update(data)
                 })
             }
-            function update(data) {
-                db.collection(this.store.coll).update(query, data, options, (err, data) => {
-                    if (err) return fn(err)
-                    if (!data) return fn(null, null)
-                    fn(null, val)
-                })
-            }
+
         })
     }
 
