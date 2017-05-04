@@ -1,7 +1,7 @@
   
 ![my love](./logo.png)
 
-# cacheman-mongo
+# cacheman-mongo2
 
 [![Build Status](https://travis-ci.org/cayasso/cacheman-mongo.png?branch=master)](https://travis-ci.org/cayasso/cacheman-mongo)
 [![NPM version](https://badge.fury.io/js/cacheman-mongo.png)](http://badge.fury.io/js/cacheman-mongo)
