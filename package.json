@@ -1,6 +1,6 @@
 {
     "name": "cacheman-mongo2",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "cacheman-mongo2",
     "main": "build/index.js",
     "scripts": {
