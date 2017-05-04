@@ -3,10 +3,11 @@
  * Module dependencies.
  */
 
-import { MongoClient } from 'mongodb'
-import uri from 'mongodb-uri'
-import thunky from 'thunky'
-import zlib from 'zlib'
+import * as mongodb from 'mongodb'
+const { MongoClient } = mongodb
+import * as uri from 'mongodb-uri'
+import * as thunky from 'thunky'
+import * as zlib from 'zlib'
 
 /**
  * Module constants.
