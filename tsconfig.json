@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "noEmit": false,
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "strictNullChecks": false,
+        "lib": [
+            "es6"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "node"
+        ],
+        "outDir": "./build",
+        "rootDir": "./ts"
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "build",
+        "**/test/*test.ts"
+    ],
+    "compileOnSave": false,
+    "buildOnSave": false
+}

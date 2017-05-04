@@ -1,0 +1,50 @@
+{
+    "name": "cacheman-mongo2",
+    "version": "0.0.1",
+    "description": "cacheman-mongo2",
+    "main": "build/index.js",
+    "scripts": {
+        "start": "node run",
+        "test": "mocha -r ts-node/register test/**/*.test*.ts",
+        "tsc": "tsc",
+        "tsc:w": "tsc -w",
+        "p": "tsc && npm publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:githbq/hbq-module-boilerplate.git"
+    },
+    "keywords": [
+        "cacheman-mongo2",
+        "cache",
+        "mongodb",
+        "caching",
+        "mongo",
+        "store",
+        "ttl",
+        "cacheman"
+    ],
+    "author": "hubiqing",
+    "license": "MIT",
+    "bugs": {
+        "url": "git@github.com:githbq/hbq-module-boilerplate.git"
+    },
+    "homepage": "git@github.com:githbq/hbq-module-boilerplate.git#readme",
+    "dependencies": {
+        "mongodb": "^2.2.26",
+        "mongodb-uri": "^0.9.7",
+        "thunky": "^1.0.2",
+        "zlib": "^1.0.5"
+    },
+    "devDependencies": {
+        "@types/chai": "^3.5.2",
+        "@types/mocha": "^2.2.41",
+        "@types/node": "^6.0.48",
+        "chai": "^3.5.0",
+        "mocha": "^3.3.0",
+        "require-helper": "^0.0.7",
+        "ts-node": "^3.0.2",
+        "tslint": "^5.1.0",
+        "typescript": "^2.3.2"
+    }
+}
