@@ -1,6 +1,6 @@
 {
     "name": "cacheman-mongo2",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "cacheman-mongo2",
     "main": "build/index.js",
     "scripts": {
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:githbq/hbq-module-boilerplate.git"
+        "url": "https://github.com/githbq/hbq-cacheman-mongo2.git"
     },
     "keywords": [
         "cacheman-mongo2",
