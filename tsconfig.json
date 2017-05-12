@@ -1,33 +1,32 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es2017",
         "module": "commonjs",
         "moduleResolution": "node",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
         "sourceMap": true,
         "noEmit": false,
         "noEmitHelpers": true,
         "importHelpers": true,
         "strictNullChecks": false,
-        "lib": [
-            "es6"
-        ],
-        "typeRoots": [
-            "node_modules/@types"
-        ],
+        "lib": ["es6"],
+        "typeRoots": ["node_modules/@types"],
         "types": [
-            "node"
+            "node",
+            "should",
+            "mocha",
+            "lodash"
         ],
         "outDir": "./build",
-        "rootDir": "./ts"
+        "rootDir": "./src"
     },
     "exclude": [
         "node_modules",
-        "dist",
         "build",
-        "**/test/*test.ts"
+        "**/*.test.ts"
     ],
     "compileOnSave": false,
     "buildOnSave": false

@@ -1,6 +1,6 @@
 {
     "name": "cacheman-mongo2",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "cacheman-mongo2",
     "main": "build/index.js",
     "scripts": {
@@ -34,17 +34,20 @@
         "mongodb": "^2.2.26",
         "mongodb-uri": "^0.9.7",
         "thunky": "^1.0.2",
+        "tslib": "^1.7.0",
         "zlib": "^1.0.5"
     },
     "devDependencies": {
         "@types/chai": "^3.5.2",
+        "@types/lodash": "^4.14.64",
         "@types/mocha": "^2.2.41",
         "@types/node": "^6.0.48",
+        "@types/should": "^8.3.0",
         "chai": "^3.5.0",
         "mocha": "^3.3.0",
         "require-helper": "^0.0.7",
+        "should": "^11.2.1",
         "ts-node": "^3.0.2",
-        "tslib": "^1.6.1",
         "tslint": "^5.1.0",
         "typescript": "^2.3.2"
     }
