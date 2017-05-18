@@ -12,6 +12,7 @@
         "noEmitHelpers": true,
         "importHelpers": true,
         "strictNullChecks": false,
+        "allowUnreachableCode": true,
         "lib": ["es2017"],
         "typeRoots": ["node_modules/@types"],
         "types": [
