@@ -1,6 +1,6 @@
 {
     "name": "cacheman-mongo2",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "cacheman-mongo2",
     "main": "build/index.js",
     "scripts": {
@@ -8,7 +8,8 @@
         "test": "mocha -r ts-node/register test/**/*.test*.ts",
         "tsc": "tsc",
         "tsc:w": "tsc -w",
-        "p": "tsc && npm publish"
+        "p": "tsc && npm publish",
+        "lint": "tslint \"src/**/*.ts\""
     },
     "repository": {
         "type": "git",
@@ -38,12 +39,10 @@
         "zlib": "^1.0.5"
     },
     "devDependencies": {
-        "@types/chai": "^3.5.2",
         "@types/lodash": "^4.14.64",
         "@types/mocha": "^2.2.41",
         "@types/node": "^6.0.48",
         "@types/should": "^8.3.0",
-        "chai": "^3.5.0",
         "mocha": "^3.3.0",
         "require-helper": "^0.0.7",
         "should": "^11.2.1",

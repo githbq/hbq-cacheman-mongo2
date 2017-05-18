@@ -50,7 +50,7 @@ export default class MongoStore {
         }
 
         conn = conn || 'mongodb://127.0.0.1:27017'
-        var coll = this.store.coll = options.collection || 'cacheman'
+        let coll = this.store.coll = options.collection || 'cacheman'
         //add by hbq   
         delete options.collection
         //end by hbq
